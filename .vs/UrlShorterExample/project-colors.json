@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "eb3c712f-47a4-4120-8871-aa56adde14ef": {
+      "ProjectGuid": "eb3c712f-47a4-4120-8871-aa56adde14ef",
+      "DisplayName": "UrlShorterExample",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

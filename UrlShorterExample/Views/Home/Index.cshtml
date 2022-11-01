@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model IndexViewModel
+
+<div class="jumbotron"> 
+     <a href="/home/index/@Model.NextId" class="btn btn-primary">Yeni Link Üret</a> 
+     <table class="table">
+        <tr>
+            <td>Id</td>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <td>Short Link</td>
+            <td>
+                <a href="/home/decodeurl/@Model.ShortLink">@Model.ShortLink</a>
+            </td>
+        </tr>
+    </table>
+</div>
